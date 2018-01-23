@@ -1,0 +1,12 @@
+# TODO
+- Bootstrap rails app
+  - ae4399e930e34c988d09735769a3b065
+  - Rails app runs example cap file
+  - Rails app also reports exceptions to Rollbar
+- Write 2 Dockerfiles
+  - 1 with proxy
+  - 1 without
+
+## Building test container
+  - ruby rspec test to call out to other docker containers, inspect their returns and report upwards the successes or failures
+  -
